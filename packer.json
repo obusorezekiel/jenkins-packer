@@ -12,15 +12,7 @@
             "secret_key": "{{user `aws_secret_key`}}",
             "security_group_ids":"sg-0732563f5405a5afc",
             "associate_public_ip_address":"true",
-            "source_ami_filter": {
-                "filters": {
-                "virtualization-type": "hvm",
-                "name": "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*",
-                "root-device-type": "ebs"
-                },
-                "owners": ["353928175117"],
-                "most_recent": true
-            },
+            "source_ami_filter": "ami-0261755bbcb8c4a84",
             "ssh_username": "ubuntu",
             "type": "amazon-ebs"
         }
