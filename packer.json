@@ -21,7 +21,7 @@
         {
             "type": "shell",
             "inline":[
-                "sudo -u ubuntu bash -c \"ssh-keygen -f ~/home/ubuntu/.ssh/id_rsa -N ''\"",
+                "sudo -u ubuntu bash -c \"ssh-keygen -f /.ssh/id_rsa -N ''\"",
                 "ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts",
                 "sudo add-apt-repository ppa:openjdk-r/ppa",
                 "sudo apt-get update -y",
